@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     @IBAction func StartstopButton(_ sender: Any) {
         if (timer == nil) {
             //タイマーのセット
-            timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(changeImage), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(changeImage), userInfo: nil, repeats: true)
             nextButton.isEnabled = false
             backButton.isEnabled = false
             StartstopButton.setTitle("停止", for: .normal)
