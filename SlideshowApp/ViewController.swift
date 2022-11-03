@@ -14,13 +14,13 @@ class ViewController: UIViewController {
     var image: UIImage?
     //なぜ！が必要か
     var imageArray:[UIImage] = [
-        UIImage(named:"letter_G")!,
-        UIImage(named:"letter_O")!,
-        UIImage(named:"letter_O2")!,
-        UIImage(named:"letter_D")!,
-        UIImage(named:"letter_J")!,
-        UIImage(named:"letter_O3")!,
-        UIImage(named:"letter_B")!
+        UIImage(named:"letter_G.png")!,
+        UIImage(named:"letter_O.png")!,
+        UIImage(named:"letter_O2.jpeg")!,
+        UIImage(named:"letter_D.png")!,
+        UIImage(named:"letter_J.png")!,
+        UIImage(named:"letter_O3.jpeg")!,
+        UIImage(named:"letter_B.png")!
     ]
     
     
